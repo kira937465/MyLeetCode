@@ -7,7 +7,7 @@
 
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        result = 0 
+        result = 0
         x = len(height) - 1
         y = 0
         while x != y:
